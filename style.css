@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ADC4CE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+  position:relative;
+  color: #333;
+  margin-left:25cqb;
+  z-index: 2;
+
+}
+
+#heading {
+color:#F1F0E8;
+margin-left:3.5em;
+font-size: 3em;
+font-weight: bolder;
+position: relative;
+margin-top: .6em;
+
+}
+
+form {
+  width: 900px;
+  margin-right: 52em;
+  margin-top: 1em;
+  margin: bottom 20px;;
+  background: #EEE0C9;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #575761;
+}
+
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #767a7d;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #78776d;
+  background:#F1F0E8;
+}
+
+  #subject{
+    width: 89%;
+    padding: 10px;
+    margin-bottom:-1em;
+    border: 1px solid #767a7d;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #766f6f;
+    z-index: 22;
+    position: absolute;
+    background: #F1F0E8;
+  }
+
+
+input[type="file"] {
+  margin-bottom: 12px;
+  color: #393E41;
+  
+}
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ADC4CE;
+  
+  border: none;
+  border-radius: 5px;
+  color: #393E41;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  color: #e6e6e6;
+  background-color:#96B6C5;
+  
+}
+#validEmails {
+  margin-top: 1px;
+}
+#invalidEmails {
+  margin-top: 1px;
+  
+} 
+
+#validEmails p,
+#invalidEmails p {
+  font-weight: bold;
+  color: #393E41;
+}
+
+#validEmails div {
+color: #393E41;
+}
+
+#invalidEmails div {
+color: #393E41;
+}
+
+#message{
+  color:#393E41;
+}
+#senderEmail{
+  color:#393E41;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #393d40;
+ 
+}
+#validEmails, #invalidEmails {
+  height: 150px;
+
+  overflow: auto;
+}
+
+h1,h2 {
+font-weight: 200;
+margin: 0.4em 0;
+z-index: 12;
+position: absolute;
+margin-top: 23em;
+margin-left:14em ;
+}
+h1 { font-size: 18px; }
+h2 {
+color: #888;
+font-size: 18px;
+}
+
+
